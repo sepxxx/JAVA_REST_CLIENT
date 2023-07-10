@@ -1,0 +1,14 @@
+_1_
+1)создание класса Communication
+showAllEmployees возвращает список студентов
+    ResponseEntity<Тип который получаем>
+    rt exchange (ссылка, метод, тело, Parm..TypeRef..)
+    получаем payload
+getEmployee
+    getForObject (url дополненный, класс)
+
+saveEmployee
+    получаем id
+    проверяем на 0 -> postForEntity
+    если не 0, изменяем работника -> put
+2)RestTemplate добавлить бин в конфиг
